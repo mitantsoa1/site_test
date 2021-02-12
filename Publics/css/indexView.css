@@ -1,0 +1,318 @@
+@font-face {
+    font-family: Paradise;
+    src: url("../fonts/Another_day_in_Paradise.ttf");
+}
+
+html,
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: 16px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: rgba(255, 250, 230, 0.5);
+}
+
+#monCarousel {
+    padding-top: 50px;
+}
+
+.chevron {
+    display: bloc;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+
+#page-top {
+    padding: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    background: #2e7d32;
+    z-index: 100;
+}
+
+.header__logo {
+    font-family: 'Paradise', Times, serif;
+    font-weight: bold;
+    font-size: 25px !important;
+    padding: 0 20px;
+    float: left;
+    position: relative;
+    left: 15px;
+}
+
+.header__logo:hover {
+    color: white;
+    text-decoration: none;
+    cursor: default;
+}
+
+.menu a {
+    width: 70px;
+    height: 50px;
+}
+
+.menu a:hover {
+    color: wheat;
+    text-decoration: none;
+    background: #2e5d32;
+    transition: all .5s;
+}
+
+.menu a:focus {
+    color: wheat;
+    text-decoration: none;
+    background: transparent;
+    transition: all .5s;
+}
+
+.menu_l {
+    float: left;
+    width: 280px;
+    margin-left: 2.5vw;
+}
+
+.menu_l a {
+    display: inline-block !important;
+    padding: 0 10px;
+}
+
+.menu_d {
+    float: right;
+    width: 100px;
+    height: 50px !important;
+    padding: 0 10px !important;
+}
+
+.menu_d:hover {
+    background: #2e5d32;
+    transition: all .5s;
+}
+
+
+/**************************/
+
+html,
+body,
+.site-content {
+    background: #dddfe2;
+}
+
+.content {
+    padding: 0;
+}
+
+.title {
+    text-align: justify;
+    padding: 0 20px;
+}
+
+
+/*MOT*/
+
+#menu1 {
+    padding: 10px;
+    background: rgba(251, 244, 244, 0.95);
+    margin-top: 1px;
+    height: 300px
+}
+
+#titleimg1 {
+    display: flex;
+    align-items: center;
+}
+
+#titleimg1 .img {
+    width: 80%;
+    position: absolute;
+    transform: translate(10%, 51%);
+    height: 200px;
+}
+
+
+/*MISSION*/
+
+#titleimg2 {
+    display: block;
+}
+
+#titleimg3 {
+    display: block;
+}
+
+#titleimg2 .img {
+    width: 90%;
+    display: block;
+    margin: auto !important;
+}
+
+#titleimg3 .img {
+    width: 90%;
+    display: block;
+    margin: auto !important;
+}
+
+
+/*VISION*/
+
+#menu3 {
+    padding: 10px;
+    background: rgba(251, 244, 244, 0.95);
+    margin-top: 1px;
+    height: 400px
+}
+
+#titleimg4 {
+    display: flex;
+    align-items: center;
+}
+
+#titleimg4 .imgMot {
+    width: 80%;
+    position: absolute;
+    transform: translate(10%, 64%);
+    height: 250px;
+}
+
+.col {
+    margin-left: -10px;
+}
+
+#menu1 .row,
+#menu2 .row,
+#menu3 .row {
+    width: 100%;
+}
+
+#textareaContact {
+    height: 190px;
+}
+
+#copyright {
+    background: black;
+    padding: 10px;
+    color: white;
+}
+
+.icon {
+    font-size: 1.5em;
+}
+
+.legend {
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+}
+
+.social-buttons {
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.social-buttons a {
+    width: 25px;
+    height: 25px;
+    margin: 0 30px;
+}
+
+.foot{
+    font-style: italic;
+    border-top: 1px solid rgba(255,255,255,.1);
+    margin: 5px 0;
+    padding: 10px 0;
+        
+}
+/*
+responsive
+*/
+
+.copyright {
+    position: relative;
+    left: 120%;
+    width: 75px;
+}
+
+
+/*$menu-width:250px!default;*/
+
+@media only screen and (max-width: 767px) and (min-width: 504px) {
+    #menu1 {
+        height: 550px !important;
+    }
+    #titleimg1 {
+        display: block;
+        position: relative;
+    }
+    #titleimg1 .img {
+        width: 80%;
+        position: relative;
+        top: -110px !important;
+        bottom: 0 !important;
+    }
+    #titleimg2 {
+        display: block;
+    }
+    #titleimg3 {
+        display: block;
+    }
+    #titleimg2 .img {
+        width: 80%;
+        display: block;
+        margin: auto !important;
+    }
+    #titleimg3 .img {
+        padding-top: 5px !important;
+        width: 80%;
+        display: block;
+        margin: auto !important;
+    }
+    #menu3 {
+        height: 730px;
+    }
+    #titleimg4 {
+        display: flex;
+        align-items: center;
+    }
+    #titleimg4 .imgMot {
+        width: 80%;
+        position: absolute;
+        top: 230px !important;
+        height: 250px;
+    }
+    #contenu4 {
+        padding-right: 10px !important;
+        margin-left: -10px !important;
+    }
+    /*
+    .copyright{
+        position: relative;
+        left: 90%;
+        top: 10px;
+    }*/
+    .social-buttons {
+        position: relative;
+        top: 2px;
+        display: block !important;
+    }
+}

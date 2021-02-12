@@ -1,0 +1,21 @@
+.titre_debut {
+    margin-top: 60px;
+}
+
+.article h2 {
+    color: red;
+    font-weight: bold;
+}
+
+.article2 h2 {
+    color: darkgreen;
+    font-family: 'Paradise';
+}
+
+.read {
+    border: none;
+    background: rgb(78, 197, 241);
+    border-radius: 2px!important;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,96 @@
+html,
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: 16px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: rgba(255, 250, 230, 0.5);
+}
+
+#monCarousel {
+    padding-top: 50px;
+}
+
+.chevron {
+    display: bloc;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+
+#page-top {
+    padding: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    background: #2e7d32;
+    z-index: 10;
+}
+
+.header__logo {
+    font-weight: bold;
+    padding: 0 25px;
+    float: left;
+}
+
+.menu a {
+    width: 70px;
+    height: 50px;
+}
+
+.menu a:hover {
+    color: wheat;
+    text-decoration: none;
+    background: #2e5d32;
+    transition: all .5s;
+}
+
+.menu_l {
+    float: left;
+    width: 300px;
+}
+
+.menu_l a {
+    display: inline-block !important;
+    padding: 0 10px;
+}
+
+.menu_d {
+    float: right;
+    width: 100px;
+    height: 50px !important;
+    padding: 0 10px !important;
+}
+
+.menu_d:hover {
+    background: #2e5d32;
+    transition: all .5s;
+}
+
+
+/*
+responsive
+*/
+
+
+/*$menu-width:250px!default;*/
+
+@media only screen and (max-width: 480px) {}

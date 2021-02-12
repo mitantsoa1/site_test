@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Paradise;
+    src: url("../fonts/Another_day_in_Paradise.ttf");
+}
+#nav_cours .header__logo{
+  color: green;
+  font-family: "Paradise";
+  font-size: 30px;
+  position: relative;
+  left: 5vw;
+}
+#myNav {
+    background: white;
+}
+#myNav .afficher{
+    position: relative;
+    left: 50vw;
+    top: 10px;
+}
+#myNav #btnDeco{
+    position: relative;
+    left: 55vw;
+}
+#myNav #btnDeco:hover{
+    background: red;
+}
+

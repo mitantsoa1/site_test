@@ -1,0 +1,19 @@
+html,
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: 16px;
+    line-height: 1.4px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 66px;
+    line-height: 66px;
+    color: #fff;
+    background: #2e7d32;
+}

@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Paradise;
+    src: url("../fonts/Another_day_in_Paradise.ttf");
+}
+#header{
+  position: fixed;
+  top: 0;
+}
+#header .menu_d{
+  width: 100px !important;
+}
+/*
+#nav_cours {
+  background: white;
+  height: 50px !important;
+}
+#nav_cours .matiere{
+  position: relative;
+  left:65vw;
+  top: 10px !important;
+  margin: 0 2px;
+  border: none;
+  height: 30px;
+  background: gray;
+  padding:5px 15px;
+}
+#nav_cours #btnDeco_cours{
+  position: relative;
+  left: 69vw;
+  border: none;
+}
+#nav_cours .header__logo{
+  color: green;
+  font-family: "Paradise";
+  font-size: 30px;
+  position: relative;
+  left: 5vw;
+}
+*/

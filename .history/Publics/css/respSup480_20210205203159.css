@@ -1,0 +1,82 @@
+.header {
+    position: static;
+}
+
+#monCarousel {
+    padding-top: 0;
+}
+
+.site-content {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    padding-top: 0;
+    overflow-y: scroll;
+}
+
+.header__iconA {
+    position: relative;
+    display: block;
+    float: left;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.header__icon {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 0;
+    box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #FFF, 0 22px 0 1px #FFF;
+    top: 9px;
+    left: 15px;
+}
+
+.menu_l a {
+    display: block !important;
+    padding: 0 16px;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    background: #2e7d32!important;
+    font-size: 1.2em;
+    transition: all .5s;
+}
+
+
+/*
+.menu{
+    position: absolute;
+    
+    left: 0;
+    top: 0;
+    bottom: 0;
+    //display: none;
+    z-index: 11;
+}
+*/
+
+.menu .menu_l {
+    padding: 70px 20px;
+    background: #2e7d32!important;
+    width: 120px !important;
+    transform: translateX(-120px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 11;
+}
+
+.menu_l a {
+    width: 100% !important;
+}
+
+.with_sidebar .site-pusher {
+    transform: translateX(120px);
+    height: 100%;
+    transition: all 0.3s;
+}

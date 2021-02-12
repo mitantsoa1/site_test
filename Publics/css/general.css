@@ -1,0 +1,116 @@
+.marge{
+    height: 50px;
+    background: transparent;
+}
+#header_nav .menu_l{
+    width: auto;
+}
+#header_nav .menu_l a{
+    width: auto;
+}
+.content_page{
+    width: 500px;
+    background: white;
+    margin-top: 10px;
+    height: auto;
+}
+#publier_modal{
+    float: right;
+    margin-top: 10px;
+}
+.modal-content{
+    width: 100% !important;
+}
+.btn_dismiss{
+    position: relative;
+    left: 50%;
+    bottom: 5px;
+}
+.contenu{
+    height: auto !important;
+    width: 470px !important;
+    padding: 10px;
+    text-indent: 20px;
+    text-align: justify;
+}
+#publier_modal {
+    position: sticky;
+    top: -100px !important;
+}
+.cours,.exercice,.evaluation{
+    width: 100%;
+    max-width: 470px !important;
+    text-align: justify;       
+}
+.cours img,.exercice img,.evaluation img{
+    width: auto;
+    max-width: 470px !important;      
+}
+
+
+/* .session_user {
+        font-size: large;
+        font-style: italic;
+        color: cornflowerblue;
+        font-weight: bolder;
+        opacity: 0.4;
+    }
+    
+    li {
+        margin-left: 2px;
+    }
+    
+    .float_droite {
+        position: relative;
+        left: 50px;
+    }
+    
+    .vide {
+        display: none;
+    }
+*/
+/*
+.afficher{
+    margin: 10px 1px;
+    border-radius: 5px;
+    height: 30px;
+}
+*/
+/*
+#btnDeco{
+    height: 30px;
+    padding: 3px 5px;
+    margin: 10px auto;
+    position: relative;
+    left: -5px;
+}
+
+.nav_right{
+    position: relative;
+    left: -80px;
+}
+#b {
+    float: right;
+    position: sticky;
+    top: 52px;
+}
+.categorie{
+    font-style: italic;
+}
+.titre{
+    display: block;
+    margin-top: 10px;
+}
+.contenu{
+    display: block;
+    margin: 10px 0;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 70vw!important;
+}
+.photo{
+    position: relative;
+    left: 2vw;
+}
+*/
